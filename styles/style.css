@@ -31,6 +31,7 @@ img {
 button {
     border: none;
     background: none;
+    cursor: pointer;
 }
 
 
@@ -129,4 +130,47 @@ h2.hero-title {
     display: block;
     margin-inline: auto;
     margin-bottom: 0;
+}
+
+/* ===================================
+            feature style 
+======================================*/
+.feature {
+    padding-top: 85px;
+}
+
+.feature-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 73px;
+}
+
+.feature-content>div {
+    flex: 1;
+}
+
+.feature-img-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.feature-text .feature-title {
+    font-family: var(--ff-work);
+    font-size: 45px;
+}
+
+.feature-title .title-p1 {
+    font-weight: 500;
+    color: var(--dark-3);
+}
+
+.feature-title .title-p3 {
+    color: var(--clr-btn-bg);
+}
+
+.feature-title .title-p2,
+.feature-title .title-p3 {
+    font-weight: 700;
 }
