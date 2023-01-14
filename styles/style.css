@@ -1,0 +1,132 @@
+/* Common style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-1: #131313;
+    --dark-2: #424242;
+    --dark-3: #727272;
+    --dark-4: #A1A1A1;
+    --dark-5: #D0D0D0;
+    --dark-6: #E7E7E7;
+    --dark-7: #F3F3F3;
+    --white: #fff;
+
+    --clr-bg-primary: #FFF4E7;
+
+    --clr-btn-bg: #FF900E;
+
+    --ff-work: 'Work Sans',
+        sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+button {
+    border: none;
+    background: none;
+}
+
+
+/* utility classes */
+.section-gap {
+    padding-top: 130px;
+}
+
+.container {
+    display: block;
+    max-width: 1440px;
+    width: 95%;
+    margin-inline: auto;
+}
+
+.subtitle {
+    color: var(--dark-3);
+    font-family: var(--ff-work);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-block: 24px;
+}
+
+.btn-primary {
+    font-family: var(--ff-work);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    color: var(--white);
+    background: var(--clr-btn-bg);
+    margin-block: 32px;
+    border-radius: 8px;
+}
+
+/* ========================================
+                header style
+============================================*/
+.main-header {
+    padding-block: 50px;
+    background-color: var(--clr-bg-primary);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .brand a {
+    text-decoration: none;
+    font-family: var(--ff-work);
+    color: var(--dark-1);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 75px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--dark-2);
+    font-family: var(--ff-work);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* ===========================================
+                Hero area style
+==============================================*/
+.hero-area {
+    padding-top: 70px;
+    padding-bottom: 45px;
+    background-color: var(--clr-bg-primary);
+}
+
+.hero-content {
+    text-align: center;
+}
+
+h2.hero-title {
+    font-family: var(--ff-work);
+    font-size: 64px;
+    color: var(--dark-1);
+    /* margin-top: 35px; */
+}
+
+.hero-description {
+    max-width: 70%;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 0;
+}
