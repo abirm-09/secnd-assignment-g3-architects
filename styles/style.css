@@ -383,7 +383,7 @@ h2.hero-title {
 .footer-content {
     background-color: var(--clr-bg-primary);
     text-align: center;
-    padding: 40px;
+    padding-block: 40px;
     margin-bottom: 200px;
 }
 
@@ -391,4 +391,93 @@ h2.hero-title {
     font-size: 20px;
     font-weight: 400;
     color: var(--dark-2);
+}
+
+@media screen and (max-width:576px) {
+    .section-gap {
+        padding-top: 50px;
+    }
+
+    .main-header {
+        padding-block: 25px;
+    }
+
+    nav {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    nav .brand a {
+        font-size: 20px;
+    }
+
+    nav ul li {
+        margin-left: 15px;
+    }
+
+    h2.hero-title,
+    .section-title {
+        font-size: 28px;
+    }
+
+    .hero-description {
+        max-width: 100%;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .btn-primary {
+        font-size: 14px;
+        padding: 1rem;
+        margin-block: 1rem;
+    }
+
+    .feature-img-gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-content,
+    .enjoy-content,
+    .success-content,
+    .sponsors-brands {
+        flex-direction: column;
+    }
+
+    .feature-text .feature-title,
+    .enjoy-top-title .enjoy-title {
+        font-size: 28px;
+    }
+
+    .enjoy-btn h4 {
+        font-size: 12px;
+    }
+
+    .facts-subtitle {
+        width: 100%;
+    }
+
+    .success-content .success-title h2 {
+        font-size: 28px;
+        text-align: left;
+    }
+
+    .success-content span {
+        display: none;
+    }
+
+    .facts-cards {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .sponsors-brands {
+        gap: 50px;
+    }
+
+    .footer-content {
+        margin-bottom: 50px;
+    }
 }
