@@ -316,3 +316,79 @@ h2.hero-title {
 .facts-card:hover h4 {
     font-size: 25px;
 }
+
+/* ======================================
+                success style
+=========================================*/
+.success-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.success-content>div {
+    flex: 0.98;
+}
+
+.success-content>span {
+    flex: 0.02;
+}
+
+.success-content span {
+    width: 5px;
+    height: auto;
+    background: var(--clr-btn-bg);
+}
+
+.success-content .success-title h2 {
+    text-align: right;
+    font-size: 45px;
+    color: var(--dark-1);
+}
+
+.success-content .success-texts p {
+    color: var(--dark-3);
+}
+
+.success-btn {
+    background: none;
+    color: var(--clr-btn-bg);
+}
+
+.success-btn i {
+    margin-left: 10px;
+}
+
+/* ======================================
+            sponsors section
+==========================================*/
+
+.sponsors-title,
+.sponsors-subtitle {
+    text-align: center;
+}
+
+.sponsors-brands {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 155px;
+    filter: grayscale(100%);
+}
+
+/*============================================
+                    Footer style
+==============================================*/
+.footer-content {
+    background-color: var(--clr-bg-primary);
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 200px;
+}
+
+.footer-content h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--dark-2);
+}
