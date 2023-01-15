@@ -252,7 +252,8 @@ h2.hero-title {
     padding: 42px;
 }
 
-.enjoy-btn h4 {
+.enjoy-btn span {
+    display: block;
     font-size: 25px;
     font-weight: 500;
 }
@@ -450,7 +451,7 @@ h2.hero-title {
         font-size: 28px;
     }
 
-    .enjoy-btn h4 {
+    .enjoy-btn span {
         font-size: 12px;
     }
 
